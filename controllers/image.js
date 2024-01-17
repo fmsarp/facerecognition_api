@@ -1,6 +1,6 @@
 export function handleApiCall(res, req) {
      // Personal Access Token (PAT) for authentication
-     const PAT = '***';
+     const PAT = '429bb34340b04971925df18d25b0ee64';
      const USER_ID = 'fmsarp';
      const APP_ID = 'Devtest';
      const MODEL_ID = 'face-detection';
