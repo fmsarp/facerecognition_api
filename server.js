@@ -11,10 +11,10 @@ import { handleApiCall, hangleImageEntries } from './controllers/image.js';
 const db = knex({
     client: 'pg',
     connection: {
-        host: process.env.DATABASE_HOST,
+        host: process.env.DATABASE_URL,
         user: process.env.DATABASE_USER,
         password: process.env.DATABASE_PW,
-        database: process.env.DATABASE_URL
+        database: process.env.DATABASE_HOST
     }
 });
 
